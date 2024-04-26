@@ -74,7 +74,7 @@
     justify-content: space-between;
   }
   .cardContainer {
-    flex: 0 1 calc(50% - 2em);
+    flex: 0 1 calc(50% - 0.5em);
   }
 
   .display {
