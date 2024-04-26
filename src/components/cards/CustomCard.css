@@ -55,8 +55,8 @@
 
 @media screen and (max-width: 780px) {
   .rating img {
-    width: 19px;
-    height: 19px;
+    width: 14px;
+    height: 14px;
     margin-left: 2px;
   }
 
@@ -66,7 +66,7 @@
   }
 
   .ratingsText {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .price {
