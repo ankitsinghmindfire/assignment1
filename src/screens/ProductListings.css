@@ -24,6 +24,8 @@
 .product {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .product:nth-child(3n) {
