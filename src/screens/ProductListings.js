@@ -37,7 +37,7 @@ const ProductListings = ({}) => {
           <FontAwesomeIcon icon={faAngleDown} />
         </p>
       </div>
-      <div className="container">
+      <div className="cardsContainer">
         {load && data.length === 0 && !error && <b>No Products Found</b>}
         {!load && data.length === 0 && error && (
           <p style={{ color: "red", fontWeight: "bold" }}>
@@ -45,7 +45,7 @@ const ProductListings = ({}) => {
           </p>
         )}
         {data?.map((product) => (
-          <div className="product">
+          <div className="cardContainer">
             <CutomCard
               image={product?.images[0]}
               price={product?.price}
