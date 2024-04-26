@@ -1,0 +1,42 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12%;
+  margin-right: 14%;
+}
+
+.headerProduct {
+  color: #1dc801;
+}
+
+.ForwardRef-root-1 {
+  height: 36px !important;
+}
+
+.MuiInputBase-input {
+  font-size: 10px !important;
+}
+
+.ForwardRef-iconButton-2 {
+  background-color: #1dc801 !important;
+  color: white !important;
+}
+
+.MuiIconButton-root {
+  border-radius: 24px !important;
+}
+
+.searchContainer {
+}
+
+@media screen and (max-width: 780px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: normal;
+    margin-left: 8%;
+  }
+  .ForwardRef-root-1 {
+    width: unset !important;
+  }
+}
